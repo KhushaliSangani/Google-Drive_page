@@ -1,0 +1,21 @@
+.links{
+display: inline-block;
+}
+.links a{
+  display: block;
+  /* padding: 3px; */
+  
+  /* display: inline-block; */
+}
+.links a i{
+  display: inline-block;
+  vertical-align: middle;
+  font-size:20px;
+}
+.links a span{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left:20px ;
+
+}
+

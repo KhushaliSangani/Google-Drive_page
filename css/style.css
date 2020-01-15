@@ -1,0 +1,208 @@
+/**********************************header*****************************************/
+.body-wrapper header {
+  background-color: white;
+  position: fixed;
+  height: 75px;
+  display: flex;
+  width: 100%;
+  z-index: 99;
+  border-bottom: 1px solid #dadce0;
+  align-items: center;
+}
+.body-wrapper header .logo {
+  position: relative;
+  padding-top: 14px;
+  left: 22px;
+}
+.body-wrapper header .logo img {
+  width: 20%;
+}
+.body-wrapper header .logo a {
+  text-decoration: none;
+}
+.body-wrapper header .logo a span {
+  position: relative;
+  top: -30px;
+  left: 50px;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.body-wrapper header .search-bar {
+  position: relative;
+  left: 42px;
+}
+.body-wrapper header .search-bar .search-icon {
+  position: absolute;
+  padding: 7px;
+  top: 4px;
+}
+.body-wrapper header .search-bar .drop-icon {
+  position: absolute;
+  padding: 8px;
+  right: 10px;
+}
+.body-wrapper header .search-bar .input-field {
+  padding: 9px 25px;
+  border: 1px solid #dadce0;
+  width: 470px;
+}
+.body-wrapper header .header-links {
+  position: relative;
+  right: -270px;
+}
+.body-wrapper header .header-links a {
+  cursor: pointer;
+  padding-right: 10px;
+}
+.body-wrapper header .header-links button {
+  border: 1px solid #dadce0;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.body-wrapper header .header-links button i {
+  padding: 7px;
+}
+.body-wrapper header .header-links button span {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  height: 25px;
+  display: inline-block;
+  width: 25px;
+  border-radius: 50%;
+}
+.body-wrapper section {
+  display: flex;
+  position: relative;
+  top: 80px;
+  /****************************************sidebar**************************************/
+  /********************************************main******************************************/
+}
+.body-wrapper section .sidenav {
+  position: fixed;
+  background-color: white;
+  z-index: 99;
+  padding: 10px;
+  margin-top: 10px;
+}
+.body-wrapper section .sidenav button {
+  border-radius: 38px;
+  font-size: 20px;
+  padding: 15px 30px 15px;
+  border: none;
+  cursor: pointer;
+}
+.body-wrapper section .sidenav button i {
+  padding-right: 20px;
+  font-size: 20px;
+}
+.body-wrapper section .sidenav .links {
+  margin-left: 10px;
+  padding-bottom: 24px;
+  height: 200px;
+  overflow-y: scroll;
+  padding-right: 20px;
+  margin-top: 20xp;
+}
+.body-wrapper section .sidenav a {
+  margin-top: 20px;
+  padding: 3px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.body-wrapper section .sidenav a i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.body-wrapper section .sidenav a span {
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.body-wrapper section .sidenav .storage {
+  margin-left: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #dadce0;
+  text-decoration: none;
+}
+.body-wrapper section .main {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 75px;
+  left: 250px;
+  border-right: 1px solid #dadce0;
+}
+.body-wrapper section .main .mydrive {
+  position: fixed;
+  background-color: white;
+  top: 78px;
+  border-bottom: 1px solid #dadce0;
+  z-index: 99;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  width: 76%;
+}
+.body-wrapper section .main .mydrive .dropdown {
+  float: left;
+}
+.body-wrapper section .main .mydrive .dropdown .dropbtn {
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+}
+.body-wrapper section .main .mydrive .dropdown .dropbtn:hover + .dropdown-content {
+  display: block;
+}
+.body-wrapper section .main .mydrive .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.body-wrapper section .main .mydrive .dropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.body-wrapper section .main .mydrive .info {
+  font-size: 24px;
+  float: right;
+}
+.body-wrapper section .main .mydrive .info > a {
+  padding-right: 24px;
+}
+.body-wrapper section .main .drive-title {
+  position: relative;
+  margin-top: 70px;
+  left: 8px;
+}
+.body-wrapper section .main .drive-container {
+  position: relative;
+  width: 894px;
+  height: 600px;
+  margin-top: 10px;
+}
+.body-wrapper section .main .drive-container > li {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  width: 250px;
+  margin: 10px;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.body-wrapper section .main .drive-container > li a {
+  text-decoration: none;
+}
